@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongosh "mongodb+srv://hospital-api.w5qrrwc.mongodb.net/" --apiVersion 1 --username tharunkumart53`);
+mongoose.connect(mongodb+srv://tharunkumart53:<password>@hospital-api.w5qrrwc.mongodb.net/?retryWrites=true&w=majority);
 
 const db = mongoose.connection;
 
